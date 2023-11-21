@@ -47,20 +47,128 @@ ul, li {
   list-style: none;
 }
 
-/* Navigation */
+span {
+  color: var(--green);
+}
+
+/* Header */
 /* _____________________________________________________________________________________________________________ */
 
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.header__branding {
+  margin: 0.4em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.header__icon {
+  position: absolute;
+  margin: 1em;
+  left: 0;
+  top: 0;
+  height: 32px;
+  width: 32px;
+}
+
+.header__nav a {
+  border-bottom: 2px solid var(--green);
+  padding: 0.6em;
+}
+
+.header__nav a:first-of-type {
+  border-top: 2px solid var(--green);
+}
+
+.header__nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 /* Main */
 /* _____________________________________________________________________________________________________________ */
 
+.main__hero {
+  min-height: 12em;
+  min-width: 24em;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../assets/initiatief-cover.jpg");
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
 
+.main__hero-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.main__hero-title {
+  font-size: 2em;
+}
 
 /* Footer */
 /* _____________________________________________________________________________________________________________ */
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--navy);
+  color: var(--white);
+  padding: 2em;
+}
 
+footer img {
+  width: 32px;
+  width: 32px;
+  filter: invert(100%) sepia(6%) saturate(24%) hue-rotate(141deg) brightness(106%) contrast(105%);
+}
+
+footer h4 {
+  font-size: 2em;
+  margin: 1em;
+  margin-top: 0;
+}
+
+.footer__social-links {
+  display: flex;
+  width: 80vw;
+  justify-content: space-around;
+  padding-bottom: 1.4em;
+  margin-bottom: 1.4em;
+  border-bottom: 2px solid var(--white);
+}
+
+.footer__corporate-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__corporate-links a {
+  padding: 0 1em;
+}
+
+.footer__corporate-links a:not(:last-child) {
+  border-right: 2px solid var(--white);
+}
 
 /* Media Queries */
 /* _____________________________________________________________________________________________________________ */
