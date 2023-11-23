@@ -45,6 +45,7 @@ a {
 
 ul, li {
   list-style: none;
+  padding: 0;
 }
 
 span {
@@ -129,6 +130,43 @@ header {
 .main__hero-title {
   font-size: 2em;
 }
+
+.main__description {
+  max-width: 88vw;
+  margin: 0 auto;
+  border-bottom: 4px solid var(--navy);
+}
+
+.main__description p {
+  max-width: 30em;
+}
+
+.main__link {
+  color: var(--green);
+  text-decoration: underline;
+}
+
+.main__info li {
+  display: flex;
+  gap: 1em;
+}
+
+.main__list {
+  width: 89vw;
+  margin: 0 auto;
+  border-bottom: 4px solid var(--navy);
+}
+
+iframe {
+  display: block;
+  height: 60vw;
+  width: 88vw;
+  border-radius: 8px;
+  margin: 2em auto;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+}
+
 
 /* Footer */
 /* _____________________________________________________________________________________________________________ */
