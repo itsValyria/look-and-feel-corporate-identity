@@ -12,14 +12,15 @@ Deze opdracht is gebaseerd op de volgende **user story**: <br>
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
-!TODO Poster visual <br>
-!TODO Poster visual comparison
+![Sprint_4_-_POS](https://github.com/itsValyria/look-and-feel-corporate-identity/assets/76444716/35919402-0252-436e-aa18-e6014be4281a)
 
 Zoals al kort beschreven hierboven, is deze website een versie 2.0 van mijn eerder gemaakte opdracht [all-human-accessible-website](https://github.com/itsValyria/all-human-accessible-website). 
 
 Deze pagina was nodig zodat mensen meer informatie kunnen zien van een buurtinitiatief, om te besluiten of ze zich willen aansluiten. Ook kunnen ze via Google maps gelijk de locatie zien, zodat ze weten waar het is en of het bereikbaar is voor hen. Verder staan er ook contactgegevens van de initiatieven voor als er vragen zijn.
 
 Ik ben aan een tweede versie begonnen omdat wij nu met een [style guide](https://github.com/itsValyria/look-and-feel-living-styleguide) werken, en ik de veranderingen wilde toepassen, samen met een nieuwe lay-out.
+
+![comp](https://github.com/itsValyria/look-and-feel-corporate-identity/assets/76444716/ca2bfa55-7862-451d-bcc5-16478bd527c9)
 
 Benieuwd naar het eindresultaat? Klik [hier](https://itsvalyria.github.io/look-and-feel-corporate-identity/)!
 
